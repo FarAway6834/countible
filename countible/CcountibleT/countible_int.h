@@ -32,8 +32,8 @@ POS(countible_int,
 )
 
 NEG(countible_int, 
-    if (is_double_signed) {pyintdd(THISES);};
     pyintneg(THISES);
+    if (is_double_signed) {pyintdd(THISES);};
     return self;
 )
 
