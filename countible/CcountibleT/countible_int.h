@@ -2,7 +2,7 @@
 #ifndef _COUNTIBLE_INT_H
 # define _COUNTIBLE_INT_H
 
-#include "countible_inth.h"
+#include "countible_int_digites.h"
 
 inline SL getSLv(cpython_size_t x) {
     return {x < 0, x};
@@ -13,10 +13,10 @@ inline void pyintneg(register pyint* x) {
 }
 
 inline void pyintcpp(py_int_core x, cpython_size_t L) {
-    PASS;
+    *((digitesarr<L>*) x)++;
 }
 inline void pyintcdd(py_int_core x, cpython_size_t L) {
-    PASS;
+    *((digitesarr<L>*) x)--;
 }
 
 inline void pyintpp(py_int* x) {
