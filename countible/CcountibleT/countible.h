@@ -2,6 +2,6 @@
 #ifndef _COUNTIBLE_H
 # define _COUNTIBLE_H
 
-#include "Python.h"
+#include <Python.h>
 
 #endif

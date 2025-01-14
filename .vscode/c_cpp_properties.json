@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",  // 기본 시스템 헤더 경로
+                "/usr/local/include/**",  // 로컬 헤더 경로
+                "/usr/include/python3.10"  // Python 헤더 경로 (여기서 x는 Python의 마이너 버전)
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
