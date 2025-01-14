@@ -37,4 +37,6 @@ NEG(countible_int,
     return self;
 )
 
+MODULE_METHODS
+
 #endif
