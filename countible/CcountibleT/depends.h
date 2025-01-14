@@ -7,4 +7,6 @@
 //bool 4 code
 #include <stdbool.h>
 
+typedef void* autolike;
+
 #endif
